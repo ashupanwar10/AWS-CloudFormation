@@ -1,0 +1,7 @@
+---
+Resources:
+  UnitedPaharBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      AccessControl: PublicRead
+      BucketName: "unitedpahar-2020"
